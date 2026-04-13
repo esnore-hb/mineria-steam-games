@@ -1,0 +1,3 @@
+El link de la fuente.
+Donde dice download, descargar como zip, extraer y colocar .csv aqui
+https://www.kaggle.com/datasets/abhishekgupta56447/steam-games-dataset-2025/data?select=steam_dataset_2025_csv
