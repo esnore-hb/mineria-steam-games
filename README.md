@@ -1,2 +1,16 @@
 # mineria-steam-games
 Repositorio de los hitos del curso de mineria.
+
+
+al clonar el repositorio de jupiter, copien lo que descargaron de kaggle a una carpeta en el directorio raiz.
+
+es decir ~/data/(todo el contenido del .zip)
+
+luego, abran el archivo main.ipynb. descarguen las extensiones recomendadas.
+
+ejecuten la primera celda, para que les pida tener que crear un ambiente de python `Python Environments...`. lo crean en el directorio raiz llamado como .venv
+ahi le dicen a visual que instale todo. no coloquen servidor remoto, a menos que el pc no sea potente. saltense la opcion de instalar librerias si les salta.
+
+Luego, abran una terminal en visual y revisen si sale el (.venv) al inicio. asi, ya podrian instalar librerias con pip en donde pida.
+
+con eso ya tendrian listo el ambiente para ejecutar celdas sin ningun problema
