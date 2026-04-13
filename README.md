@@ -13,4 +13,6 @@ ahi le dicen a visual que instale todo. no coloquen servidor remoto, a menos que
 
 Luego, abran una terminal en visual y revisen si sale el (.venv) al inicio. asi, ya podrian instalar librerias con pip en donde pida.
 
-con eso ya tendrian listo el ambiente para ejecutar celdas sin ningun problema
+con eso ya tendrian listo el ambiente para ejecutar celdas sin ningun problema.
+
+OJO, ES PREFERIBLE QUE CREAN UNA RAMA LLAMADA dev/tu-nombre o dev-tu-nombre, ASI AL FINAL SE HACE PR A LA RAMA MAIN
