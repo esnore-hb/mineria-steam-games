@@ -1,6 +1,6 @@
 import pandas as pd
 
-df_genres =  pd.read_csv('mineria-steam-games/data/genres.csv', encoding="UTF-8")
+df_genres =  pd.read_csv('./data/genres.csv', encoding="UTF-8")
 
 df_genres.loc[df_genres['id'] == 4, 'name'] = df_genres.loc[df_genres['id'] == 5, 'name'].values[0] 
 df_genres.loc[df_genres['id'] == 30, 'name'] = df_genres.loc[df_genres['id'] == 5, 'name'].values[0] 
@@ -125,9 +125,9 @@ df_genres.loc[df_genres['id'] == 100, 'name'] = df_genres.loc[df_genres['id'] ==
 df_genres.loc[df_genres['id'] == 119, 'name'] = df_genres.loc[df_genres['id'] == 144, 'name'].values[0] 
 df_genres.loc[df_genres['id'] == 124, 'name'] = df_genres.loc[df_genres['id'] == 144, 'name'].values[0] 
 
-df_genres.to_csv('mineria-steam-games/data-cleaned/genres_clean.csv', index=False)
+df_genres.to_csv('./data-cleaned/genres_clean.csv', index=False)
 
-df_categories =  pd.read_csv('mineria-steam-games/data/categories.csv', encoding="UTF-8")
+df_categories =  pd.read_csv('./data/categories.csv', encoding="UTF-8")
 
 df_categories.loc[df_categories['id'] == 2, 'name'] = df_categories.loc[df_categories['id'] == 4, 'name'].values[0] 
 df_categories.loc[df_categories['id'] == 20, 'name'] = df_categories.loc[df_categories['id'] == 4, 'name'].values[0] 
@@ -532,4 +532,4 @@ df_categories.loc[df_categories['id'] == 399, 'name'] = df_categories.loc[df_cat
 df_categories.loc[df_categories['id'] == 511, 'name'] = df_categories.loc[df_categories['id'] == 436, 'name'].values[0] 
 
 
-df_categories.to_csv('mineria-steam-games/data-cleaned/categories_clean.csv', index=False)
+df_categories.to_csv('./data-cleaned/categories_clean.csv', index=False)
