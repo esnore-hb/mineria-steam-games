@@ -7,8 +7,8 @@ plataforma de Steam.
 Las preguntas que se estudiarion fueron:
 
 - ¿Cuál es el tiempo de juego que dedican los usuarios de Steam? (playtime)
-- ¿Qué tipos de desarrolladores existen en la plataforma? (LikeReview)
-- ¿Qué factores influyen en la valoración de un juego y su reseña? (developers)
+- ¿Qué factores influyen en la valoración de un juego y su reseña? (LikeReview)
+- ¿Qué tipos de desarrolladores existen en la plataforma?  (developers)
 
 Para ello, se dedican tres archivos `.ipynb` para poder responderlas, donde
 las palabras en paréntesis se refieren a sus archivos respectivos.
@@ -41,3 +41,5 @@ paquete `torch`, dada su naturaleza computacional, se beneficia del
 procesamiento paralelo que ofrece este hardware.
 
 ### Developers
+
+No se requieren consideraciones adicionales para ejecutar este código. Se puede omitir la sección de exploración de datos si solo se quieren evaluar los modelos.  
