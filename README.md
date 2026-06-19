@@ -13,8 +13,31 @@ Las preguntas que se estudiarion fueron:
 Para ello, se dedican tres archivos `.ipynb` para poder responderlas, donde
 las palabras en paréntesis se refieren a sus archivos respectivos.
 
-## Playtime
+## Pasos para poder ejecutar el código fuente
 
-## LikeReview
+Un primer requisito es utilizar Visual Studio Code, abrir este repositorio e
+instalar las extensiones recomendadas.
 
-## Developers
+Luego de eso, establecer un ambiente necesario para poder ejecutar el código
+Python, instalando los `requirements.txt`.
+
+Finalmente, decirle a Visual Studio Code que use este ambiente de Python como
+su Kernel.
+
+### Playtime
+
+No se puede ofrecer una solución directa más que workarounds si es que se desea
+ejecutar en Colab, pues existe un tratamiento a los datos hecho por el archivo
+`clean.py` que, por ejemplo, traduce los géneros que existen en Steam fila a
+fila. Este archivo es vital para poder tener un mejor estudio, pero por
+implementación no se decidió colocar en el `.ipynb` dada su extensión.
+
+### LikeReview
+
+Si al momento de querer ejecutar este código no se posee una tarjeta gráfica
+dedicada, es recomendable usar Colab. Si se puede subir el archivo directamente
+y no debería tener problemas (probado con `runtime T4 GPU`). Esto debido al
+paquete `torch`, dada su naturaleza computacional, se beneficia del
+procesamiento paralelo que ofrece este hardware.
+
+### Developers
