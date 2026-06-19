@@ -1,21 +1,20 @@
-# mineria-steam-games
-Repositorio de los hitos del curso de mineria.
+# Estudio a los usuarios de la plataforma Steam
 
+En el presente repositorio se tienen los programas necesarios para responder
+3 preguntas de un caso de estudio. Este caso de estudio es a los usuarios de la
+plataforma de Steam.
 
-al clonar el repositorio de jupiter, copien lo que descargaron de kaggle a una carpeta en el directorio raiz.
+Las preguntas que se estudiarion fueron:
 
-es decir ~/data/(todo el contenido del .zip)
+- ¿Cuál es el tiempo de juego que dedican los usuarios de Steam? (playtime)
+- ¿Qué tipos de desarrolladores existen en la plataforma? (LikeReview)
+- ¿Qué factores influyen en la valoración de un juego y su reseña? (developers)
 
-luego, abran el archivo main.ipynb. descarguen las extensiones recomendadas.
+Para ello, se dedican tres archivos `.ipynb` para poder responderlas, donde
+las palabras en paréntesis se refieren a sus archivos respectivos.
 
-ejecuten la primera celda, para que les pida tener que crear un ambiente de python `Python Environments...`. lo crean en el directorio raiz llamado como .venv
-ahi le dicen a visual que instale todo. no coloquen servidor remoto, a menos que el pc no sea potente. saltense la opcion de instalar librerias si les salta.
+## Playtime
 
-Luego, abran una terminal en visual y revisen si sale el (.venv) al inicio. asi, ya podrian instalar librerias con pip en donde pida.a
+## LikeReview
 
-Si al correr la celda pide instalar el kernel, verifiquen primero si el ambiente .venv esta elegido. si es asi, jupyter se va a instalar ahi.
-(si surgen problemas porque se instaló como root o si en windows, se instalo en el computador completo, avisenme para ver si surge un problema ono)
-
-con eso ya tendrian listo el ambiente para ejecutar celdas sin ningun problema.
-
-OJO, ES PREFERIBLE QUE CREAN UNA RAMA LLAMADA dev/tu-nombre o dev-tu-nombre, ASI AL FINAL SE HACE PR A LA RAMA MAIN
+## Developers
