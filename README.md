@@ -15,11 +15,17 @@ las palabras en paréntesis se refieren a sus archivos respectivos.
 
 ## Pasos para poder ejecutar el código fuente
 
-Un primer requisito es utilizar Visual Studio Code, abrir este repositorio e
-instalar las extensiones recomendadas.
+El primer paso es utilizar Visual Studio Code, luego clonar y abrir este
+repositorio e instalar las extensiones recomendadas.
 
 Luego de eso, establecer un ambiente necesario para poder ejecutar el código
 Python, instalando los `requirements.txt`.
+
+```bash
+python -m venv .venv
+source .venv/bin/activate # En linux
+pip install -r requirements.txt
+```
 
 Finalmente, decirle a Visual Studio Code que use este ambiente de Python como
 su Kernel.
@@ -42,4 +48,5 @@ procesamiento paralelo que ofrece este hardware.
 
 ### Developers
 
-No se requieren consideraciones adicionales para ejecutar este código. Se puede omitir la sección de exploración de datos si solo se quieren evaluar los modelos.  
+No se requieren consideraciones adicionales para ejecutar este código. Se puede
+omitir la sección Exploración de datos si solo se quieren evaluar los modelos.
